@@ -2,6 +2,7 @@ package gofun
 
 import "math"
 
+//切片切割
 func ArrayChunk(s []interface{}, size int) [][]interface{} {
 	if size < 1 {
 		panic("size: cannot be less than 1")
